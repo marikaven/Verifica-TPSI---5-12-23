@@ -1,0 +1,77 @@
+*{
+    box-sizing:border-box;
+    } 
+    
+    .container{
+    padding:20px;
+    width:360px;
+    background:lightskyblue;
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:13px;
+    overflow:hidden;
+    border: solid 2px;
+    }
+    
+    .container .input-box{
+    height:160px; 
+    width:100%;
+    }
+    
+    .container .buttons-box{
+    height:360px;       
+    }
+    
+    .container .buttons-box button{
+    all:unset;  
+    height:60px;
+    width:64px;
+    background:lightgrey;
+    color:black;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border: solid 1px;
+    border-radius:7px;
+    float:left;
+    margin-left:5px;
+    margin-top:10px;
+    cursor:pointer;
+    position:relative;
+    left:14px;
+    font-size:20px;
+    font-weight:600;
+    }
+    
+    .container .buttons-box .button.no-button{
+    pointer-events:none;        
+    }
+    
+    .container .buttons-box .bg-button{
+    background:lightgreen;        
+    }
+    
+    .container .input-box input{
+    all:unset;
+    height:58px;
+    width:317px;
+    position:relative;
+    right:10px;
+    top:60px;
+    text-align:right;
+    font-size:20px;
+    color:black;
+    }
+    
+    .container .input-box .input-value{
+    height:30px;
+    font-size:25px;
+    }
+    
+    .container .input-box .result{
+    font-weight:600;    
+    font-size:39px;
+    }
+    

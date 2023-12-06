@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice verifica</title>
+    <link rel="stylesheet" href="verifica.css" type="text/css">
+    <script src="verifica.js" defer></script>  
+</head>
+<body>
+
+<div class="container">
+ <div class="input-box">
+  <input type="text" class="input-value" placeholder="0" value="" readonly>
+  <input type="text" class="result" value="" placeholder="0" readonly>
+ </div>   
+ <div class="buttons-box">
+      <button class="bg-button" id="ac" onclick="input.value = ''; result.value = '0'; flag = 0">AC</button>
+      <button class="bg-button" id="del-button" onclick="backSpace()"><i class="fa-solid fa-delete-left">←</i></button>
+      <button class="button bg-button">%</button>
+      <button class="button bg-button">÷</button>
+      <button class="button">1</button>
+      <button class="button">2</button>
+      <button class="button">3</button>
+      <button class="button bg-button">×</button>
+      <button class="button">4</button>
+      <button class="button">5</button>
+      <button class="button">6</button>
+      <button class="button bg-button">-</button>
+      <button class="button">7</button>
+      <button class="button">8</button>
+      <button class="button">9</button>
+      <button class="button bg-button">+</button>
+      <button class="button bg-button">( )</button>
+      <button class="button">0</button>
+      <button class="button">.</button>
+      <button class="buttons bg-button" onclick="calculate()">=</button>  
+ </div>
+</div>  
+</body>
+</html>
